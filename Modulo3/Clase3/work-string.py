@@ -71,3 +71,29 @@ numeros.remove(3)
 del numeros[0]
 print(numeros)
 print(numeros.insert(1,12))
+
+print("======= Tuplas ========")
+
+empty_tuple = ()
+fullfiled_tuple = (1, "miau", 34.6)
+
+print(empty_tuple, fullfiled_tuple)
+
+print(type(fullfiled_tuple))
+
+one_tuple = ('Tas',)
+print(type(one_tuple))
+
+hojas = 'carta', 'oficio'
+print(type(hojas))
+print(hojas)
+
+
+empty_tuple_2 = tuple()
+print(empty_tuple_2)
+
+list_to_convert = [2, 6, 8, 9]
+print(list_to_convert)
+
+tuple_converted = tuple(list_to_convert)
+print(tuple_converted)
