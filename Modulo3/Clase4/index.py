@@ -80,3 +80,26 @@ else:
     else:
         print("guau")
 
+print("========Ciclos: While========")
+
+want_exit = False
+while want_exit == False:
+    print("hola cómo te va?")
+    pregunta = input("¿Quieres terminar el ciclo? T para sí, F para no \n")
+    if pregunta == "T":
+        want_exit = True
+    else:
+        want_exit = False
+print("Fuera del while")
+
+print("========Ciclos: While2========")
+want_exit = "T"
+numero = 0
+while want_exit == False:
+    print("hola cómo te va?")
+    want_exit = input("¿Quieres terminar el ciclo? T para sí, F para no \n")
+    numero += 1
+    if numero == 4:
+        print("ya no puedes entrar más al while")
+        break
+print("Fuera del while yeeey")
