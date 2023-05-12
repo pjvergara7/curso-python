@@ -1,0 +1,1 @@
+https://github.com/pjvergara7/curso-python/blob/main/Modulo3/Consolidacion/ejercicio_consolidacion.py
