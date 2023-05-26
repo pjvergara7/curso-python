@@ -11,8 +11,3 @@ class RevertirCadena:
 _cadena = input("Ingrese una frase: ")
 reversor = RevertirCadena(_cadena)
 print(reversor.revertir())
-
-
-
-
-
